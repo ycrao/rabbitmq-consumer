@@ -20,7 +20,7 @@ class Deamon {
     }
 
     /**
-     * @param $message
+     * 常驻服务
      */
     private function daemon() {
         if (php_sapi_name() != 'cli') {
@@ -171,7 +171,7 @@ class Deamon {
                 $this->status();
                 break;
             default:
-                echo "php daemon.php start|stop|status " . PHP_EOL;
+                echo "php bin/daemon.php start|stop|status " . PHP_EOL;
                 break;
         }
     }
