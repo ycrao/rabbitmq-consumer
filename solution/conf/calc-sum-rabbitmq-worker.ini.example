@@ -1,0 +1,12 @@
+[program:calc-sum-rabbitmq-worker]
+process_name=%(program_name)s_%(process_num)02d
+command=/usr/bin /path/to/project/bin/calc_sum_comsumer.php
+stdout_logfile=/path/to/log/calc.log
+stdout_logfile_maxbytes=0
+stderr_logfile=/dev/stderr
+stderr_logfile_maxbytes=0
+autostart=true
+autorestart=true
+startretries=0
+priority=10
+user=root
