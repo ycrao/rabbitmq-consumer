@@ -14,7 +14,6 @@ RabbitMQ-Consumer
 参考文档：
 
 - [PHP 实现守护进程](https://learnku.com/articles/32320)
-- [用PHP实现守护进程任务后台运行与多线程（php-resque使用说明）](https://get.ftqq.com/7380.get)
 
 #### 方案二 基于 `supervisor/k8s-docker` 重启拉起机制
 

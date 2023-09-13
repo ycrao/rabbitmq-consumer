@@ -1,6 +1,6 @@
 <?php
 
-class Deamon {
+class Daemon {
 
     /*
      * @var pid file
@@ -177,5 +177,5 @@ class Deamon {
     }
 }
 
-$daemon = new \Deamon();
+$daemon = new \Daemon();
 $daemon->run($argv);
