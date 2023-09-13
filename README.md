@@ -14,6 +14,7 @@ RabbitMQ-Consumer
 参考文档：
 
 - [PHP 实现守护进程](https://learnku.com/articles/32320)
+- [php-resque](https://github.com/chrisboulton/php-resque)
 
 #### 方案二 基于 `supervisor/k8s-docker` 重启拉起机制
 
